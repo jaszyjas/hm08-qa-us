@@ -4,13 +4,22 @@ module.exports = {
     toField: '#to',
     phoneNumberField: '#phone',
     codeField: '#code',
+    messageForDriverField: '#comment',
     // Buttons
     callATaxiButton: 'button=Call a taxi',
     phoneNumberButton: '//div[starts-with(text(), "Phone number")]',
     nextButton: 'button=Next',
     confirmButton: 'button=Confirm',
+    supportivePlanButton: 'div=Supportive',
+    linkButton: 'button=Link',
+    closeButton: '.close-button.section-close',
+    plusOneIceCreamPlusButton: 'div=+',
+    orderButton: 'span.smart-button-main',
+    businessPlan: 'div=Business',
+    iceCreamValue: '.counter-value',
     // Modals
     phoneNumberModal: '.modal',
+    carSearchModal: '.oder-body',
     // Functions
     fillAddresses: async function(from, to) {
         const fromField = await $(this.fromField);
