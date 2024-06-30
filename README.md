@@ -6,4 +6,8 @@ I use the course material from sprint 8, as well as the help of Dot to build my 
 
 Intructions on how to run the test. 
 
+npm install @wdio 
+
+npx wdio config 
+
 npm run wdio
